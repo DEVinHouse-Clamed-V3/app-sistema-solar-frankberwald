@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    color: '#fff', // Changed to white for better contrast
+    color: '#fff',
     fontWeight: 'bold',
   },
   planetView: {
@@ -63,5 +63,20 @@ export const styles = StyleSheet.create({
   },
   planetInfoView: {
     alignItems: 'left',
+  },
+  navButtonView: {
+    flexDirection: 'row',
+    padding: 40,
+    justifyContent: 'space-between',
+    width: '100%'
+  },
+  navButton: {
+    padding: 10,
+    backgroundColor: '#cc91c8',
+    borderRadius: 5
+  },
+  navButtonText: {
+    color: '#fff',
+    fontSize:24
   }
 });
